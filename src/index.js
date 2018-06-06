@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
+import router from './router'
+import style from './assets/css/style.css'
 
 class App extends Component {
     render() {
-        return <div>测试</div>
+        return router
     }
 }
 

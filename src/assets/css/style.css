@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#app{
+    height: 100%;
+}
+
+.example-container {
+    display: flex;
+    height: 100%;
+}
+
+.example-container pre, .example-container .result {
+    flex: 1;
+    margin: 0 20px;
+    overflow: auto;
+}
+
+.example-container pre {
+    padding: 0 !important;
+    height: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    font-size: 20px;
+}
